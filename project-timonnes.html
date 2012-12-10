@@ -23,6 +23,9 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
   </head>
 
   <body>
@@ -39,11 +42,19 @@
       </div>
 
       <hr>
-
+			
 			<div>
 				<p class="lead">Web design, html/css, branding.</p>
-				<p>Website, blog theme and branding for Wellington-based photographer <a href="http://timonnes.com"><strong>Tim Onnes</strong></a>.</p>
+				<div id="description" class="collapse">
+					<div class"row-fluid">
+						<a id="readmore"></a><p>Website, blog theme and branding for Wellington-based photographer <a href="http://timonnes.com"><strong>Tim Onnes</strong></a>.</p>
+					</div>
+				</div>
+				<button type="button" class="btn toggle-description" data-toggle="collapse" data-target="#description">
+				  Read More
+				</button>
 			</div>
+			
 			<hr>
 			
 			<div class="row-fluid">

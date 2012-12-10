@@ -23,6 +23,9 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
   </head>
 
   <body>
@@ -42,8 +45,19 @@
 
 			<div>
 				<p class="lead">Illustration, copywriting, graphic design, typography.</p>
-				<p>A booklet which debates whether it's better to join the good guys or the bad guys in the Star Wars universe.</p>
+				<div id="description" class="collapse">
+					<div class"row-fluid">
+						<a id="readmore"></a><p>This university brief was a way for us to explore macro and microaesthetics, by designing a booklet which unfolded to reveal a large poster.</p> 
+						<p>I designed a booklet which debates whether it's better to join the good guys or the bad guys in the Star Wars universe. 
+							The points had to be clearly distinguishable between each side and the body copy played a large role in persuading the audience.</p> 
+						<p>I chose to illustrate my points, both positive, for the dark side &amp; the good side in the universe of Star Wars, using humour to aid pursuasion and comprehension.</p>
+					</div>
+				</div>
+				<button type="button" class="btn toggle-description" data-toggle="collapse" data-target="#description">
+				  Read More
+				</button>
 			</div>
+			
 			<hr>
 				
 			<div class="row-fluid">

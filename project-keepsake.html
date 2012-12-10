@@ -24,8 +24,9 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
-
-		<script type="text/javascript" src="bootstrap/css/bootstrap.js"></script>
+		
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
   </head>
 
   <body>
@@ -45,13 +46,15 @@
 			
 			<div>
 				<p class="lead">Graphic design, branding, copywriting, concept.</p>
-				<a href="#readmore"><button type="button" class="btn btn-inverse">Read More</button></a>
-				
-				<button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#demo">
-				  simple collapsible
+				<div id="description" class="collapse">
+					<div class"row-fluid">
+						<a id="readmore"></a><p>This was a university project for a graphic design paper. The brief was to conceptualise a design conference of our own chosen topic and to design a brochure &amp; poster to promote it.</p> <p>My conference, titled 'Keepsake,' was a multi-disciplinary discussion of things which were designed with the intention to last or be kept forever. Playing on that idea, I wrapped my final booklet in tissue paper and placed it in a handmade box with a vinyl sticker on the front. These combined elements were meant to encourage the person who received the box to think of it as something special that they ought to consider keeping forever.</p>
+						<p>The typeface used is Dan Gneiding's 'Ribbon.'</p>
+					</div>
+				</div>
+				<button type="button" class="btn toggle-description" data-toggle="collapse" data-target="#description">
+				  Read More
 				</button>
-
-				<div id="demo" class="collapse in">dbngsjnjt gbjsrlknhngjngkd </div>
 			</div>
 			
 			<hr>
@@ -82,13 +85,6 @@
 			
 			<hr>
 			
-			<div class"row-fluid">
-				<a id="readmore"></a><p>This was a university project for a graphic design paper. The brief was to conceptualise a design conference of our own chosen topic and to design a brochure &amp; poster to promote it. My conference, titled 'Keepsake,' was a multi-disciplinary discussion of things which were designed with the intention to last or be kept forever. Playing on that idea, I wrapped my final booklet in tissue paper and placed it in a handmade box with a vinyl sticker on the front. These combined elements were meant to encourage the person who received the box to think of it as something special that they ought to consider keeping forever.
-				The typeface used is Dan Gneiding's 'Ribbon.'</p>
-			</div>
-			
-			<hr>
-
       <div class="footer">
         <p>&copy; Alex Hawkhead 2012</p>
       </div>

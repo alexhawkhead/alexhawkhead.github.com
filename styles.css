@@ -128,3 +128,7 @@
 		margin-bottom: 20px;
 		clear: left;
 	}
+	
+	ul.nav.nav-pills.pull-right {
+		margin-top: 38px;
+	}

@@ -47,7 +47,7 @@
 	.nav > li > a:hover {
 	  text-decoration: none;
 		color: #fff;
-	  background-color: #ff5400;
+	  background-color: #333;
 	}
 	
 	.nav > li > a {
@@ -131,4 +131,60 @@
 	
 	ul.nav.nav-pills.pull-right {
 		margin-top: 36px;
+	}
+	
+	.nav-pills > li > a {
+	  padding-top: 8px;
+	  padding-bottom: 8px;
+	  margin-top: 2px;
+	  margin-bottom: 2px;
+	  -webkit-border-radius: 5px;
+	  -moz-border-radius: 5px;
+	  border-radius: 5px;
+	}
+	
+	.nav-pills > .active > #nav-about {
+	  color: #ffffff;
+		background-color: #fff;
+		background-image: url('/images/nav-about.png');
+	}
+	
+	.nav-pills > .active > #nav-contact {
+	  color: #ffffff;
+		background-color: #fff;
+		background-image: url('/images/nav-contact.png');
+	}
+	
+	.nav-pills > .active > #nav-portfolio {
+	  color: #ffffff;
+		background-color: #fff;
+		background-image: url('/images/nav-portfolio.png');
+	}
+
+	
+	.nav-pills > li > #nav-about:hover {
+		background-color: #fff;
+		background-image: url('/images/nav-about-hover.png');
+	}
+	
+	.nav-pills > li > #nav-contact:hover {
+		background-color: #fff;
+		background-image: url('/images/nav-contact-hover.png');
+	}
+	
+	.nav-pills > li > #nav-portfolio:hover {
+		background-color: #fff;
+		background-image: url('/images/nav-portfolio-hover.png');
+	}
+	
+	#nav-about {
+		padding: 8px 16px 20px 12px;
+	}
+	
+	#nav-contact {
+		padding: 8px 15px 20px 13px;
+	}
+	
+	#nav-portfolio {
+		padding: 8px 15px 20px 13px;
 	}

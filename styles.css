@@ -191,6 +191,11 @@
 	.tags {
 		list-style-type: none;
 		font-family: 'Arvo', serif;
-		font-size: 24px;
+		font-size: 20px;
 		display: inline;
+		margin: 0px;
+	}
+	
+	.tags.active {
+		color: #FF5400;
 	}

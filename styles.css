@@ -196,6 +196,6 @@
 		margin: 0px;
 	}
 	
-	.tags.active {
+	.tags li.active {
 		color: #FF5400;
 	}

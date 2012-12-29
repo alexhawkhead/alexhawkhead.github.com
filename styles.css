@@ -56,14 +56,14 @@
 	}
 	
 	img {
-		border-radius: 6px;
+		border-radius: 0px;
 	}
 	
 
 	
 	.thumbnail {
 		padding: 7px;
-		border-radius: 10px;
+		border-radius: 0px;
 		opacity: 0.8;
 		filter: alpha(opacity=80);
 		border: 1px solid #F0F0F0;

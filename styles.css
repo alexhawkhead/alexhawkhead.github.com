@@ -208,3 +208,7 @@
 	.tags li.active {
 		color: #FF5400;
 	}
+	
+	.span4 {
+		margin-left: 0px;
+	}

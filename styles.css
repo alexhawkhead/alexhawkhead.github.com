@@ -185,3 +185,9 @@
 	.marketing {
 		margin: 40px 0px;
 	}
+	
+	.tags {
+		list-style-type: none;
+		font-family: 'Arvo', serif;
+		font-size: 24px;
+	}

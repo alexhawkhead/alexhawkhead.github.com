@@ -78,7 +78,7 @@
 		border-radius: 0px;
 		opacity: 0.8;
 		filter: alpha(opacity=80);
-		border: 1px solid #F0F0F0;
+		border: 0px solid #F0F0F0;
 	}
 	
 	.thumbnail:hover {

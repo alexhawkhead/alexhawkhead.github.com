@@ -46,7 +46,7 @@
 
   .row-fluid [class*="span"]:first-child {
     margin-left: 0;
-		margin-bottom: 20px;
+		margin-bottom: 0px;
   }
 
 	a:hover {
@@ -74,7 +74,7 @@
 	}
 	
 	.thumbnail {
-		padding: 7px;
+		padding: 0px;
 		border-radius: 0px;
 		opacity: 0.8;
 		filter: alpha(opacity=80);
@@ -130,7 +130,7 @@
 		
 	#portfolio_projects_visible > *:nth-child(4n+1), #portfolio_projects > *:nth-child(4n+1) {
 		margin-left: 0;
-		margin-bottom: 20px;
+		margin-bottom: 0px;
 		clear: left;
 	}
 	
@@ -220,4 +220,12 @@
 	
 	hr {
 		border-top: 1px solid #fff;
+	}
+	
+	.thumbnails {
+	  margin-left: 0px;
+	}
+	
+	.thumbnails > li {
+		margin-left: 0px;
 	}

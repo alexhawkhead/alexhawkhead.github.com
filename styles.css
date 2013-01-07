@@ -206,7 +206,7 @@
 		margin: 0px;
 	}
 	
-	li#portfolio_filter.tags.active {
+	ul#portfolio_filter.tags li.active {
 		color: #FF5400;
 	}
 	

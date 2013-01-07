@@ -46,7 +46,7 @@
 
   .row-fluid [class*="span"]:first-child {
     margin-left: 0;
-		margin-bottom: 0px;
+		margin-bottom: 20px;
   }
 
 	a:hover {
@@ -74,11 +74,11 @@
 	}
 	
 	.thumbnail {
-		padding: 0px;
+		padding: 7px;
 		border-radius: 0px;
 		opacity: 0.8;
 		filter: alpha(opacity=80);
-		border: 0px solid #F0F0F0;
+		border: 1px solid #F0F0F0;
 	}
 	
 	.thumbnail:hover {
@@ -130,7 +130,7 @@
 		
 	#portfolio_projects_visible > *:nth-child(4n+1), #portfolio_projects > *:nth-child(4n+1) {
 		margin-left: 0;
-		margin-bottom: 0px;
+		margin-bottom: 20px;
 		clear: left;
 	}
 	
@@ -210,7 +210,7 @@
 		color: #FF5400;
 	}
 	
-	.span3 {
+	.span4 {
 		margin-left: 0px;
 	}
 	
@@ -221,24 +221,3 @@
 	hr {
 		border-top: 1px solid #fff;
 	}
-	
-	.thumbnails {
-	  margin-left: 0px;
-	}
-	
-	.thumbnails > li {
-		margin-left: 0px;
-	}
-	
-	.row-fluid {
-    margin-left: 0px;
-  }
-
-  [class*="span"] {
-    margin-left: 0px;
-  }
-
-  .row-fluid [class*="span"] {
-    margin-left: 0;
-    *margin-left: 0;
-  }

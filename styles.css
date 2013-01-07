@@ -229,3 +229,9 @@
 	.thumbnails > li {
 		margin-left: 0px;
 	}
+	
+	[class*="span"] {
+    float: left;
+    min-height: 1px;
+    margin-left: 0px;
+  }

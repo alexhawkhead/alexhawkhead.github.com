@@ -231,7 +231,14 @@
 	}
 	
 	.row-fluid {
-    float: left;
-    min-height: 1px;
     margin-left: 0px;
+  }
+
+  [class*="span"] {
+    margin-left: 0px;
+  }
+
+  .row-fluid [class*="span"] {
+    margin-left: 0;
+    *margin-left: 0;
   }

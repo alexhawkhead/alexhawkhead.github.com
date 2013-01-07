@@ -230,7 +230,7 @@
 		margin-left: 0px;
 	}
 	
-	div.span3 {
+	.row-fluid {
     float: left;
     min-height: 1px;
     margin-left: 0px;

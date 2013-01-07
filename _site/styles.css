@@ -6,7 +6,7 @@
   /* Custom container */
   .container-narrow {
     margin: 0 auto;
-    max-width: 700px;
+    max-width: 960px;
   }
   .container-narrow > hr {
     margin: 30px 0;
@@ -25,6 +25,28 @@
     font-size: 21px;
     padding: 14px 24px;
   }
+
+	.lead {
+		font-family: 'Arvo', serif;
+		font-size: 20px;
+	}
+	
+	h4 {
+		font-family: 'Arvo', serif;
+		font-weight: bold;
+		margin: 0px 0px 30px 0px;
+	}
+	
+	h5 {
+		font-family: 'Arvo', serif;
+		font-weight: normal;
+		margin: 0px 0px 30px 0px;
+		font-size: 17.5px;
+	}
+	
+	.orange {
+		color: #FF5400;
+	}
 
   /* Supporting marketing content */
   .marketing {
@@ -56,29 +78,34 @@
 	}
 	
 	img {
-		border-radius: 6px;
+		border-radius: 0px;
 	}
 	
-
+	li {
+		display: inline;
+	}
 	
 	.thumbnail {
-		padding: 7px;
-		border-radius: 10px;
-		opacity: 0.8;
-		filter: alpha(opacity=80);
-		border: 1px solid #F0F0F0;
+		padding: 0px;
+		border-radius: 0px;
+		opacity: 1;
+		filter: alpha(opacity=100);
+		border: 0px solid #F0F0F0;
+		box-shadow: none;
+		-moz-box-shadow: none;
+		-webkit-box-shadow: none;
 	}
 	
 	.thumbnail:hover {
-		opacity: 1;
-		filter: alpha(opacity=100);
+		opacity: 0.7;
+		filter: alpha(opacity=70);
 	}
 	
 	a.thumbnail:hover {
 	  border-color: #eee;
-	  -webkit-box-shadow: inset 0 0px 10px rgba(0, 0, 0, 0.08);
-	  -moz-box-shadow: inset 0 0px 10px rgba(0, 0, 0, 0.08);
-	  box-shadow: inset 0 0px 10px rgba(0, 0, 0, 0.08);
+	  -webkit-box-shadow: none;
+	  -moz-box-shadow: none;
+	  box-shadow: none;
 	}
 
 	
@@ -116,7 +143,7 @@
 		}
 		
 		
-	#portfolio_projects_visible > *:nth-child(3n+1), #portfolio_projects > *:nth-child(3n+1) {
+	#portfolio_projects_visible > *:nth-child(4n+1), #portfolio_projects > *:nth-child(4n+1) {
 		margin-left: 0;
 		margin-bottom: 20px;
 		clear: left;
@@ -184,4 +211,33 @@
 	
 	.marketing {
 		margin: 40px 0px;
+	}
+	
+	.tags {
+		list-style-type: none;
+		font-family: 'Arvo', serif;
+		font-size: 20px;
+		display: inline;
+		margin: 0px;
+	}
+	
+	ul#portfolio_filter.tags li.active a {
+		color: #FF5400;
+	}
+	
+	.span4 {
+		margin-left: 0px;
+	}
+	
+	#wufoo-z7x3p3 {
+		width: 50% ;
+	}
+	
+	hr {
+		border-top: 1px solid #fff;
+	}
+	
+	hr.visible {
+		border-top: 1px solid #eee;
+		padding-bottom: 40px;
 	}

@@ -128,7 +128,7 @@
 		}
 		
 		
-	#portfolio_projects_visible > *:nth-child(3n+1), #portfolio_projects > *:nth-child(3n+1) {
+	#portfolio_projects_visible > *:nth-child(4n+1), #portfolio_projects > *:nth-child(4n+1) {
 		margin-left: 0;
 		margin-bottom: 20px;
 		clear: left;

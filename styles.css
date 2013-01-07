@@ -217,3 +217,7 @@
 	#wufoo-z7x3p3 {
 		width: 50% ;
 	}
+	
+	hr {
+		border-top: 1px solid #fff;
+	}

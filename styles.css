@@ -241,3 +241,7 @@
 		border-top: 1px solid #eee;
 		padding-bottom: 40px;
 	}
+	
+	.project-description {
+		width: 50%;
+	}

@@ -8,7 +8,7 @@
   
   h1 {
 	  font-family: 'Montserrat', helvetica, arial, sans-serif;
-	  font-size: 66px;
+	  font-size: 61px;
 	  line-height: 80px;
 	  font-weight: 700;
 	  margin-bottom: 50px;
@@ -19,6 +19,12 @@
 	  font-size: 35px;
 	  font-weight: 400;
   }
+  
+  #container {
+	  width: 960px;
+	  margin: 0 auto;
+  }
+  
   #big-blurb {
 	width: 735px;
   }

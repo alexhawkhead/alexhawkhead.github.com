@@ -1,6 +1,11 @@
   body {
     padding-top: 20px;
     padding-bottom: 40px;
+	background-color: #fa4d1e;
+  }
+
+  #big-blurb {
+	width: 735px;
   }
 
   /* Custom container */

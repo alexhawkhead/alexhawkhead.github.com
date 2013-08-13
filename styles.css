@@ -12,12 +12,23 @@
 	  line-height: 80px;
 	  font-weight: 700;
 	  margin-bottom: 50px;
+	  margin-top: 200px;
   }
 
   p {
 	  font-family: 'Montserrat', helvetica, arial, sans-serif;
 	  font-size: 35px;
 	  font-weight: 400;
+  }
+  
+  a {
+	  text-decoration: none;
+	  color: #fff;
+  }
+  
+  a:hover {
+	  text-decoration: none;
+	  color: #fff;
   }
   
   #container {

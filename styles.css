@@ -1,7 +1,6 @@
   body {
 	background-color: #fa4d1e;
 	border: 20px solid #fff;
-	height: 100%;
 	margin: 0px;
 	color: #fff;
   }
@@ -28,7 +27,8 @@
   
   a:hover {
 	  text-decoration: none;
-	  color: #fff;
+	  color: #fa4d1e;
+	  background-color: #fff;
   }
   
   #container {
